@@ -43,6 +43,46 @@ body {
 /*
 ************************* Watch Section ***********************/
 
+.short-video  {
+    /* margin-top:  auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+
+
+.short-video figcaption {
+   background-color: transparent;
+   color: white;
+   text-align: center;
+  
+   
+}
+
+#watch {
+   display: flex;
+   justify-content: center;
+   background-image: url("images/bgk-middle.png");
+   
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   height: 700px;
+   
+  
+}
+
+.storyfigure {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 200px;
+   
+}
+
 /*
 *********************** Expertise Section *********************/
 
