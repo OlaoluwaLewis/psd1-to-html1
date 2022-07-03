@@ -270,8 +270,106 @@ p.position {
 #team .separator {
   border-color: #ffffff31;
 }
-/*
-**************************** Footer ***************************/
 
 /*
 ******************** Contact Client Section *******************/
+
+#contactclient {
+    display: flex;
+    justify-content: center;
+   margin-left: 500px;
+    width: 900px;
+    height: 400px;
+    flex-direction: row;
+}
+.client {
+    width: 850px;
+    height: 700px;
+}
+.client h4{
+    margin-left: 6px;
+   
+}
+
+.logo {
+   display: inline-flex;
+   
+   justify-content: space-around;
+   flex-direction: column;
+   width: 100px;
+   height: 50px;
+   
+  
+}
+
+.logo2 {
+    display: inline-flex;
+    justify-content: space-around;
+   flex-direction: column;
+   width: 100px;
+   height: 50px;
+   margin: 30px;
+}
+
+.logo img {
+    margin: 10px;
+}
+
+.logo2 img {
+    margin: 10px;
+}
+
+.contact {
+   margin-right: 100px;
+   width: 550px;
+  
+}
+
+.contact button {
+   color: var(--turquoise);
+   background-color: transparent;
+   border: 1px solid var(--turquoise);
+   border-radius: .4rem;
+   padding: .6rem .8rem;
+   text-transform: uppercase;
+   font-size: .8rem;
+   transition: all 0.3s ease-out;
+   display: block;
+}
+
+.contact button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-1px) scale(1.1);
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+
+  input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+  
+
+
+
+
+
+/*
+**************************** Footer ***************************/
+
